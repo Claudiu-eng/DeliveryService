@@ -1,0 +1,9 @@
+The client 5 has ordered  Order{orderID=4, clientID=5, date=Date{day=9, mounth=11, year=403, hour=7}}
+The client 6 has ordered  Order{orderID=5, clientID=6, date=Date{day=14, mounth=6, year=2140, hour=13}}
+The client 7 has ordered  Order{orderID=6, clientID=7, date=Date{day=23, mounth=11, year=1600, hour=7}}
+The client 2 has ordered  Order{orderID=0, clientID=2, date=Date{day=11, mounth=11, year=3877, hour=2}}
+The client 2 has ordered  Order{orderID=1, clientID=2, date=Date{day=16, mounth=7, year=1478, hour=16}}
+The client 9 has ordered  Order{orderID=2, clientID=9, date=Date{day=2, mounth=9, year=463, hour=18}}
+The client 2 has ordered  Order{orderID=0, clientID=2, date=Date{day=8, mounth=9, year=4636, hour=9}}
+The client 2 has ordered  Order{orderID=0, clientID=2, date=Date{day=5, mounth=6, year=902, hour=18}}
+The client 3 has ordered  Order{orderID=1, clientID=3, date=Date{day=24, mounth=6, year=4530, hour=4}}

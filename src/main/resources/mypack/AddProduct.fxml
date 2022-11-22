@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="850.0" prefWidth="549.0" style="-fx-background-color: #F03FFF;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mypack.controller.AddProductController">
+    <children>
+        <AnchorPane prefHeight="148.0" prefWidth="549.0" style="-fx-background-color: #FFFFFF;">
+            <children>
+                <Rectangle arcHeight="5.0" arcWidth="5.0" height="148.0" stroke="BLACK" strokeType="INSIDE" width="549.0">
+                    <fill>
+                        <LinearGradient endX="1.0" endY="1.0" startX="0.2796208530805687" startY="0.2796208530805687">
+                            <stops>
+                                <Stop>
+                                    <color>
+                                        <Color red="0.11999999731779099" green="0.5848594903945923" blue="1.0" />
+                                    </color>
+                                </Stop>
+                                <Stop offset="1.0">
+                                    <color>
+                                        <Color red="0.8899999856948853" green="0.8749532103538513" />
+                                    </color>
+                                </Stop>
+                            </stops>
+                        </LinearGradient>
+                    </fill>
+                </Rectangle>
+                <Label layoutX="162.0" layoutY="20.0" prefHeight="63.0" prefWidth="211.0" text="Add Product">
+                    <font>
+                        <Font name="System Bold" size="35.0" />
+                    </font>
+                </Label>
+            </children>
+        </AnchorPane>
+        <TextField fx:id="titleTextField" layoutX="137.0" layoutY="172.0" prefHeight="41.0" prefWidth="282.0" />
+        <Button id="shiny" fx:id="addButton" layoutX="182.0" layoutY="679.0" mnemonicParsing="false" onAction="#addButtonOnAction" prefHeight="53.0" prefWidth="193.0" stylesheets="@ButtonsStyle.css" text="Add">
+            <font>
+                <Font size="29.0" />
+            </font>
+        </Button>
+        <Button id="shiny" fx:id="backButton" layoutX="182.0" layoutY="758.0" mnemonicParsing="false" onAction="#backBTNEvent" prefHeight="53.0" prefWidth="193.0" stylesheets="@ButtonsStyle.css" text="Back">
+            <font>
+                <Font size="29.0" />
+            </font>
+        </Button>
+        <Label layoutX="14.0" layoutY="181.0" prefHeight="24.0" prefWidth="81.0" text="Title">
+         <font>
+            <Font size="20.0" />
+         </font></Label>
+        <TextField fx:id="proteinsTextField" layoutX="137.0" layoutY="248.0" prefHeight="41.0" prefWidth="282.0" />
+        <TextField fx:id="caloriesTextField" layoutX="137.0" layoutY="319.0" prefHeight="41.0" prefWidth="282.0" />
+        <TextField fx:id="fatsTextField" layoutX="137.0" layoutY="385.0" prefHeight="41.0" prefWidth="282.0" />
+        <TextField fx:id="priceTextField" layoutX="137.0" layoutY="529.0" prefHeight="41.0" prefWidth="282.0" />
+        <TextField fx:id="sodiumTextField" layoutX="137.0" layoutY="453.0" prefHeight="41.0" prefWidth="282.0" />
+        <Label fx:id="messageFinal" layoutX="441.0" layoutY="770.0" prefHeight="41.0" prefWidth="106.0">
+            <font>
+                <Font size="17.0" />
+            </font>
+        </Label>
+      <Label layoutX="15.0" layoutY="391.0" prefHeight="24.0" prefWidth="81.0" text="Fats">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="15.0" layoutY="324.0" prefHeight="24.0" prefWidth="81.0" text="Calories">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="458.0" prefHeight="24.0" prefWidth="81.0" text="Sodium">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="253.0" prefHeight="24.0" prefWidth="81.0" text="Proteins">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="15.0" layoutY="535.0" prefHeight="24.0" prefWidth="81.0" text="Price">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="604.0" prefHeight="24.0" prefWidth="81.0" text="Rating">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <TextField fx:id="ratingTextField" layoutX="137.0" layoutY="598.0" prefHeight="41.0" prefWidth="282.0" />
+    </children>
+</AnchorPane>

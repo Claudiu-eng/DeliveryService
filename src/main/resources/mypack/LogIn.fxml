@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="498.0" prefWidth="773.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mypack.controller.LogInController">
+   <children>
+      <AnchorPane prefHeight="498.0" prefWidth="218.0" style="-fx-background-color: #FED700;">
+         <children>
+            <ImageView fitHeight="150.0" fitWidth="150.0" layoutX="26.0" layoutY="29.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/food.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="162.0" fitWidth="150.0" layoutX="26.0" layoutY="235.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/log.jpg" />
+               </image>
+            </ImageView>
+            <Label layoutX="14.0" layoutY="414.0" prefHeight="41.0" prefWidth="179.0" text="\@theBestDeliveryFoodRomania" textFill="WHITE">
+               <font>
+                  <Font name="System Italic" size="12.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane prefHeight="498.0" prefWidth="556.0" style="-fx-background-color: #C55DFF;">
+         <children>
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="92.0" layoutY="45.0" prefHeight="62.0" prefWidth="407.0" text="Members Log In">
+               <font>
+                  <Font size="31.0" />
+               </font>
+            </Label>
+            <Label layoutX="50.0" layoutY="183.0" prefHeight="41.0" prefWidth="115.0" text="Username">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </Label>
+            <Label layoutX="50.0" layoutY="259.0" prefHeight="41.0" prefWidth="115.0" text="Password">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+            <TextField fx:id="usernameTextField" layoutX="239.0" layoutY="191.0" prefHeight="29.0" prefWidth="193.0" promptText="username" />
+            <PasswordField fx:id="passwordTextField" layoutX="239.0" layoutY="265.0" prefHeight="29.0" prefWidth="193.0" promptText="password" />
+            <Button id="shiny" fx:id="logInButton" layoutX="144.0" layoutY="415.0" mnemonicParsing="false" onAction="#logInButtonOnAction" prefHeight="52.0" prefWidth="269.0" stylesheets="@ButtonsStyle.css" text="Log In">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Button>
+            <Label layoutX="51.0" layoutY="367.0" prefHeight="29.0" prefWidth="83.0" text="Log In as">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <ComboBox fx:id="rolesBox" layoutX="239.0" layoutY="369.0" prefWidth="150.0" />
+         </children>
+      </AnchorPane>
+   </children>
+</HBox>
